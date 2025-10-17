@@ -456,14 +456,9 @@ For support and questions:
 ## Roadmap
 
 Future enhancements planned:
-- [ ] AI-powered content suggestions
-- [ ] Multiple CV templates
-- [ ] Cover letter generator
-- [ ] LinkedIn profile import
 - [ ] Job matching recommendations
 - [ ] Interview preparation tips
-- [ ] Salary insights
-- [ ] Application tracking
+
 
 ---
 
