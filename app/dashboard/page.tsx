@@ -33,21 +33,30 @@ const DashboardPage = () => {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    const fetchStats = async () => {
+    const es = new EventSource("/api/dashboard-events")
+
+    es.onmessage = (event) => {
       try {
-        const response = await fetch("/api/dashboard-stats")
-        if (!response.ok) throw new Error("Failed to fetch stats")
-        const data = await response.json()
+        const data = JSON.parse(event.data)
+        if (data?.error) {
+          setError("Failed to load dashboard stats")
+          return
+        }
         setStats(data)
-      } catch (err) {
-        console.error("[v0] Error fetching dashboard stats:", err)
-        setError("Failed to load dashboard stats")
-      } finally {
+        setError(null)
         setLoading(false)
+      } catch (err) {
+        console.error("[v0] Error parsing SSE message:", err)
       }
     }
 
-    fetchStats()
+    es.onerror = () => {
+      setError("Connection lost. Reconnecting...")
+    }
+
+    return () => {
+      es.close()
+    }
   }, [])
 
   if (loading) {
