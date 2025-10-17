@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+
+
 import { neon } from "@neondatabase/serverless"
 
 export async function GET(request: Request) {
