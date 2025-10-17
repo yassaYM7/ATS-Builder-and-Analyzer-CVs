@@ -26,36 +26,68 @@ ATS Builder/Analyzer is a comprehensive web application designed to help job see
 
 ## Build
 - Enter your data
-<img width="1919" height="1079" alt="Screenshot 2025-10-17 203936" src="https://github.com/user-attachments/assets/2ca9752e-be41-49d4-ac0c-c44610cff31a" />
 
-<img width="1919" height="1079" alt="Screenshot 2025-10-17 210356" src="https://github.com/user-attachments/assets/72bb7950-a4f4-4c97-a065-61e7f95c480e" />
-<img width="1906" height="1003" alt="Screenshot 2025-10-17 210418" src="https://github.com/user-attachments/assets/7827cd4a-798b-4fdb-b79a-5398f1150733" />
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 203936" src="https://github.com/user-attachments/assets/2ca9752e-be41-49d4-ac0c-c44610cff31a" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 210356" src="https://github.com/user-attachments/assets/72bb7950-a4f4-4c97-a065-61e7f95c480e" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 210418" src="https://github.com/user-attachments/assets/7827cd4a-798b-4fdb-b79a-5398f1150733" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
 
 ---
 
 ## Analyze and Preview CV
-<img width="1919" height="1079" alt="Screenshot 2025-10-17 210602" src="https://github.com/user-attachments/assets/bcecc808-ac00-4b60-896a-8d0788de885e" />
-<img width="1818" height="1077" alt="Screenshot 2025-10-17 210635" src="https://github.com/user-attachments/assets/38ae29da-696f-4141-b048-af83c21c6ff0" />
 
-<img width="1868" height="1079" alt="Screenshot 2025-10-17 211244" src="https://github.com/user-attachments/assets/f794d295-5cce-48bc-a87d-4895c9e068b9" />
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 210602" src="https://github.com/user-attachments/assets/bcecc808-ac00-4b60-896a-8d0788de885e" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 210635" src="https://github.com/user-attachments/assets/38ae29da-696f-4141-b048-af83c21c6ff0" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 211244" src="https://github.com/user-attachments/assets/f794d295-5cce-48bc-a87d-4895c9e068b9" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
 
 ---
+
 ### finally, Exported CV
-<img width="1243" height="1079" alt="Screenshot 2025-10-17 212211" src="https://github.com/user-attachments/assets/554bb3c8-09b8-439a-b4df-59a59ad90edb" />
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 212211" src="https://github.com/user-attachments/assets/554bb3c8-09b8-439a-b4df-59a59ad90edb" style="max-width: 100%; width: 100%; height: auto; max-width: 600px;" />
+</div>
 
 ---
-### AI-assistant chat bot 
 
-<img width="1919" height="1079" alt="Screenshot 2025-10-17 211159" src="https://github.com/user-attachments/assets/f2bfa928-d863-4751-9a07-08e1d9647f5e" />
+### AI-assistant chat bot
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 211159" src="https://github.com/user-attachments/assets/f2bfa928-d863-4751-9a07-08e1d9647f5e" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
 
 ---
+## Dashboard
+<img width="1910" height="1079" alt="image" src="https://github.com/user-attachments/assets/1e0788cc-6273-4a75-8954-5320aba22a2b" />
+
 ## Contact Us form
-<img width="1919" height="1079" alt="Screenshot 2025-10-17 203902" src="https://github.com/user-attachments/assets/4b2cfacd-c011-463f-90c6-0213056885c3" />
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 203902" src="https://github.com/user-attachments/assets/4b2cfacd-c011-463f-90c6-0213056885c3" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
 
 ---
 
 ## Send Feedback form
-<img width="1916" height="1079" alt="Screenshot 2025-10-17 203833" src="https://github.com/user-attachments/assets/87e6bc7b-ec60-4926-9e29-a17b5a2b7c54" />
+
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img alt="Screenshot 2025-10-17 203833" src="https://github.com/user-attachments/assets/87e6bc7b-ec60-4926-9e29-a17b5a2b7c54" style="max-width: 100%; width: 100%; height: auto; max-width: 900px;" />
+</div>
 
 ---
 
