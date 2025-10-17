@@ -492,4 +492,4 @@ Future enhancements planned:
 
 **Built with ❤️ for job seekers worldwide**
 
-For more information, visit the [live demo](https://your-domain.com) or check out the [documentation](https://your-domain.com/docs).
+
