@@ -2,20 +2,30 @@
 
 <p align="center">
 
-
-**AI-Powered Resume Optimization Platform**
+# **AI-Powered Resume Optimization Platform**
 
 Build professional resumes that pass Applicant Tracking Systems and land you interviews.
 
-
-[![Open Source](https://img.shields.io/badge/Open%20Source-24292F?logo=github&logoColor=white&style=flat-square)](https://github.com)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-0078D4?logo=vercel&logoColor=white&style=flat-square)](https://ats-builder-and-analyzer.vercel.app)
+[![Open Source](https://img.shields.io/badge/Open%20Source-24292F?logo=github&logoColor=white&style=flat-square)](https://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0078D4?logo=vercel&logoColor=white&style=flat-square)](https://ats-builder-and-analyzer-cv.vercel.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/yassaYM7/ATS-Builder-and-Analyzer-CVs?color=0078D4&logo=github&logoColor=white&style=flat-square)](https://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs)
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20ATS%20Builder%20and%20Analyzer%20App!%20%F0%9F%93%9D%20%23Flutter%20%23OpenSource%20by%20%40yassaYM7%0Ahttps://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs">
-    <img src="https://img.shields.io/badge/Share%20on%20X-000000?logo=x&logoColor=white&style=flat-square" alt="Share on X"/>
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20ATS%20Builder%20and%20Analyzer%20App!%20%F0%9F%93%9D%20%23Next.js%20%23OpenSource%20by%20%40yassaYM7%0Ahttps://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs">
+  <img src="https://img.shields.io/badge/Share%20on%20X-000000?logo=x&logoColor=white&style=flat-square" alt="Share on X"/>
+</a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/yassa-mouris-7074b628b/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn"/>
   </a>
-  ![cover](https://github.com/user-attachments/assets/f803f77e-cf9a-4895-9347-9f737e3542e0)
-</div>
+
+  <!-- Gmail -->
+  <a href="mailto:yassatawfik27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" alt="Email"/>
+  </a>
+
+![cover](https://github.com/user-attachments/assets/f803f77e-cf9a-4895-9347-9f737e3542e0)
+
+</p>
 
 
 ## Overview
