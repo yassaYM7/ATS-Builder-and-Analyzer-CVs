@@ -1,12 +1,63 @@
 # ATS Builder/Analyzer
 
-A modern, AI-powered CV/Resume builder with integrated ATS (Applicant Tracking System) analysis. Built with Next.js 15, TypeScript, and Tailwind CSS.
+<p align="center">
 
-![ATS Builder/Analyzer](public/animated-bg.jpg)
+
+**AI-Powered Resume Optimization Platform**
+
+Build professional resumes that pass Applicant Tracking Systems and land you interviews.
+
+
+[![Open Source](https://img.shields.io/badge/Open%20Source-24292F?logo=github&logoColor=white&style=flat-square)](https://github.com)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-0078D4?logo=vercel&logoColor=white&style=flat-square)](https://ats-builder-and-analyzer.vercel.app)
+[![GitHub Stars](https://img.shields.io/github/stars/yassaYM7/ATS-Builder-and-Analyzer-CVs?color=0078D4&logo=github&logoColor=white&style=flat-square)](https://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs)
+  <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20ATS%20Builder%20and%20Analyzer%20App!%20%F0%9F%93%9D%20%23Flutter%20%23OpenSource%20by%20%40yassaYM7%0Ahttps://github.com/yassaYM7/ATS-Builder-and-Analyzer-CVs">
+    <img src="https://img.shields.io/badge/Share%20on%20X-000000?logo=x&logoColor=white&style=flat-square" alt="Share on X"/>
+  </a>
+  ![cover](https://github.com/user-attachments/assets/f803f77e-cf9a-4895-9347-9f737e3542e0)
+</div>
+
 
 ## Overview
 
 ATS Builder/Analyzer is a comprehensive web application designed to help job seekers create professional resumes and optimize them for Applicant Tracking Systems. The platform features real-time ATS scoring, AI-powered feedback, and an interactive chatbot assistant to guide users through the resume building process.
+
+--- 
+
+## Build
+- Enter your data
+<img width="1919" height="1079" alt="Screenshot 2025-10-17 203936" src="https://github.com/user-attachments/assets/2ca9752e-be41-49d4-ac0c-c44610cff31a" />
+
+<img width="1919" height="1079" alt="Screenshot 2025-10-17 210356" src="https://github.com/user-attachments/assets/72bb7950-a4f4-4c97-a065-61e7f95c480e" />
+<img width="1906" height="1003" alt="Screenshot 2025-10-17 210418" src="https://github.com/user-attachments/assets/7827cd4a-798b-4fdb-b79a-5398f1150733" />
+
+---
+
+## Analyze and Preview CV
+<img width="1919" height="1079" alt="Screenshot 2025-10-17 210602" src="https://github.com/user-attachments/assets/bcecc808-ac00-4b60-896a-8d0788de885e" />
+<img width="1818" height="1077" alt="Screenshot 2025-10-17 210635" src="https://github.com/user-attachments/assets/38ae29da-696f-4141-b048-af83c21c6ff0" />
+
+<img width="1868" height="1079" alt="Screenshot 2025-10-17 211244" src="https://github.com/user-attachments/assets/f794d295-5cce-48bc-a87d-4895c9e068b9" />
+
+---
+### finally, Exported CV
+<img width="1243" height="1079" alt="Screenshot 2025-10-17 212211" src="https://github.com/user-attachments/assets/554bb3c8-09b8-439a-b4df-59a59ad90edb" />
+
+---
+### AI-assistant chat bot 
+
+<img width="1919" height="1079" alt="Screenshot 2025-10-17 211159" src="https://github.com/user-attachments/assets/f2bfa928-d863-4751-9a07-08e1d9647f5e" />
+
+---
+## Contact Us form
+<img width="1919" height="1079" alt="Screenshot 2025-10-17 203902" src="https://github.com/user-attachments/assets/4b2cfacd-c011-463f-90c6-0213056885c3" />
+
+---
+
+## Send Feedback form
+<img width="1916" height="1079" alt="Screenshot 2025-10-17 203833" src="https://github.com/user-attachments/assets/87e6bc7b-ec60-4926-9e29-a17b5a2b7c54" />
+
+---
 
 ## Features
 
@@ -20,7 +71,7 @@ ATS Builder/Analyzer is a comprehensive web application designed to help job see
 - **Mobile Responsive** - Optimized for all screen sizes
 
 ### CV Sections
-- Personal Information (Name, Email, Phone, Location, LinkedIn, Portfolio)
+- Personal Information (Name, Email, Phone, Location)
 - Professional Summary
 - Work Experience (Multiple entries with rich descriptions)
 - Education (Degrees, institutions, dates)
@@ -32,7 +83,7 @@ ATS Builder/Analyzer is a comprehensive web application designed to help job see
 
 ### Additional Features
 - **Contact Form** - Integrated with Formspree for easy communication
-- **Feedback System** - EmailJS-powered feedback collection with star ratings
+- **Feedback System** -  feedback collection with star ratings
 - **Animated Backgrounds** - Beautiful blue gradient animations
 - **Responsive Navigation** - Mobile hamburger menu with smooth animations
 - **Form Validation** - Client-side validation for all inputs
@@ -48,10 +99,8 @@ ATS Builder/Analyzer is a comprehensive web application designed to help job see
 - **shadcn/ui** - High-quality React components
 
 ### Integrations
-- **EmailJS** - Email service for feedback form
 - **Formspree** - Contact form handling
-- **Vercel Blob** - File storage (optional)
-- **Neon/Supabase** - Database support (optional)
+- **Neon** - Database 
 
 ### Development Tools
 - **ESLint** - Code linting
@@ -99,37 +148,17 @@ This will install all required packages including:
 Create a `.env.local` file in the root directory:
 
 \`\`\`env
-# EmailJS Configuration (Required for Feedback Form)
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_emailjs_public_key_here
 
-# Optional: Database Configuration
+
+#  Database Configuration
 DATABASE_URL=your_database_url_here
 
-# Optional: Blob Storage
-BLOB_READ_WRITE_TOKEN=your_blob_token_here
+
 \`\`\`
 
-#### Getting Your EmailJS Public Key
 
-1. Sign up at [EmailJS](https://www.emailjs.com/)
-2. Go to [Account Settings](https://dashboard.emailjs.com/admin/account)
-3. Copy your **Public Key**
-4. Paste it in `.env.local`
+   
 
-**EmailJS Configuration:**
-- Service ID: `service_56bvka6`
-- Template ID: `n2nlc9n`
-- Email: `atsbuilderanalyzer@gmail.com`
-
-#### Securing EmailJS
-
-To prevent abuse of your public key:
-1. Go to [EmailJS Dashboard](https://dashboard.emailjs.com/admin/account)
-2. Add **Allowed Origins**:
-   - `http://localhost:3000` (development)
-   - `https://yourdomain.com` (production)
-3. Set **Rate Limits** (e.g., 100 emails/day)
-4. Enable **reCAPTCHA** (optional)
 
 ### 4. Run Development Server
 
@@ -449,7 +478,6 @@ For support and questions:
 - Built with [Next.js](https://nextjs.org/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/)
-- Email service by [EmailJS](https://www.emailjs.com/)
 - Contact form by [Formspree](https://formspree.io/)
 - Fonts by [Vercel](https://vercel.com/font)
 
