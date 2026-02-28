@@ -42,6 +42,7 @@ export function Header() {
                 Builder
               </Button>
             </Link>
+
             <Link href="/contact">
               <Button variant="ghost" size="sm">
                 Contact
@@ -68,29 +69,31 @@ export function Header() {
         </div>
 
         {/* Mobile Navigation Menu */}
-        {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-border pt-4 space-y-2">
-            <Link href="/builder" onClick={() => setIsMenuOpen(false)}>
-              <Button variant="ghost" className="w-full justify-start">
-                Builder
-              </Button>
-            </Link>
-            <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-              <Button variant="ghost" className="w-full justify-start">
-                Contact
-              </Button>
-            </Link>
-            <Link href="/feedback" onClick={() => setIsMenuOpen(false)}>
-              <Button variant="ghost" className="w-full justify-start">
-                Feedback
-              </Button>
-            </Link>
-            <div className="flex items-center justify-between px-3 py-2">
-              <span className="text-sm text-muted-foreground">Theme</span>
-              <ThemeToggle />
-            </div>
-          </nav>
-        )}
+        {
+          isMenuOpen && (
+            <nav className="md:hidden mt-4 pb-4 border-t border-border pt-4 space-y-2">
+              <Link href="/builder" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="ghost" className="w-full justify-start">
+                  Builder
+                </Button>
+              </Link>
+
+              <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="ghost" className="w-full justify-start">
+                  Contact
+                </Button>
+              </Link>
+              <Link href="/feedback" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="ghost" className="w-full justify-start">
+                  Feedback
+                </Button>
+              </Link>
+              <div className="flex items-center justify-between px-3 py-2">
+                <span className="text-sm text-muted-foreground">Theme</span>
+                <ThemeToggle />
+              </div>
+            </nav>
+          )}
       </div>
     </header>
   )

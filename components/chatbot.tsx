@@ -122,7 +122,7 @@ export function ChatBot({ cvData, atsScore }: ChatBotProps) {
               </Button>
             </div>
             <p className="text-xs text-muted-foreground mt-1">Powered by Gemini AI</p>
-          </CardHeader>
+          </CardHeader >
 
           <CardContent className="flex-1 overflow-y-auto p-4 space-y-4">
             {messages.map((message) => (
@@ -144,7 +144,7 @@ export function ChatBot({ cvData, atsScore }: ChatBotProps) {
               </div>
             )}
             <div ref={messagesEndRef} />
-          </CardContent>
+          </CardContent >
 
           <div className="border-t border-border p-4 flex-shrink-0">
             <div className="flex gap-2">
@@ -160,7 +160,7 @@ export function ChatBot({ cvData, atsScore }: ChatBotProps) {
               </Button>
             </div>
           </div>
-        </Card>
+        </Card >
       )}
     </>
   )

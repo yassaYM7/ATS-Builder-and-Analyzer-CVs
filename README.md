@@ -2,7 +2,7 @@
 
 <p align="center">
 
-# **AI-Powered Resume Optimization Platform**
+
 
 Build professional resumes that pass Applicant Tracking Systems and land you interviews.
 
@@ -30,7 +30,7 @@ Build professional resumes that pass Applicant Tracking Systems and land you int
 
 ## Overview
 
-ATS Builder/Analyzer is a comprehensive web application designed to help job seekers create professional resumes and optimize them for Applicant Tracking Systems. The platform features real-time ATS scoring, AI-powered feedback, and an interactive chatbot assistant to guide users through the resume building process.
+ATS Builder/Analyzer is a comprehensive web application designed to help job seekers create professional resumes and optimize them for Applicant Tracking Systems. The platform features real-time ATS scoring, and an interactive chatbot assistant to guide users through the resume building process.
 
 --- 
 
